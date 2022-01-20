@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navigation style stars here*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1f2937;
+   
+}
+nav{
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    align-items: center;
+   
+  
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 180px;
+    cursor: pointer;
+    
+
+}
+
+.li, a{
+    color: white;
+    text-decoration: none;
+    /*text decoration takes out the under lines*/
+    justify-content: space-around;
+   
+    
+    
+}
+.nav-links{   
+    font-size: 18px;
+    width: 600px; 
+    padding-right: 200px;
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    /*justify-content space around to make space between*/
+}
